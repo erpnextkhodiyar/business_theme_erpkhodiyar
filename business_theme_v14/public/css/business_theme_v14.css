@@ -135,8 +135,8 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #36414c;
-    --primary-color: #ffa00a;
+    --background-color: #bbd2e9;
+    --primary-color: #9c2828;
     --secondary-color: #7574ff;
     --white-color: #ffffff;
     --black-color: #000000;
@@ -144,6 +144,9 @@ input:focus{
 
     --page-head-height: 50px;
     --navbar-height: 50px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #9c2828 !important;
 }
 .btn-primary:active,
 .btn-secondary:focus,
