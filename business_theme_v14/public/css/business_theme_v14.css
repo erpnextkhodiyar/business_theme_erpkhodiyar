@@ -161,8 +161,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .btn-primary{
     color: #fff !important;
     background-color: var(--primary-color) !important;
-    border-radius: 0 !important;
+    font-weight: bold;
 }
+.search-bar .search-icon{
+margin-left: 250px !important;
+}
+
 .btn-primary:hover{
     background-color: rgba(255, 120, 10, 0.93) !important;
 }
@@ -260,8 +264,11 @@ header .form-control:focus{
 
 
 /* Input Fields */
-input{
-    border-radius: 0 !important;
+input[type="text"] .form-group select{ 
+
+    border: 2x solid #ccc !important;
+    border-radius: 30px !important; /* Adjust the value as needed */
+    padding: 10px !important;
 }
 .form-control{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
