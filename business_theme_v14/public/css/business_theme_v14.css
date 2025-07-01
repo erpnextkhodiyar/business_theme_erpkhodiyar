@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 /* CSS */
-.btn-primary {
+.btn-primary  {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
   border: 0;
@@ -188,6 +188,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  font-weight: bold;
   
 }
 
