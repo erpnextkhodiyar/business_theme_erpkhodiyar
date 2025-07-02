@@ -159,15 +159,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .btn-secondary:focus{
     box-shadow: none !important;
 }
+.btn-default {
+    color: #4215e3 !important;
+}
+.call-button {
+    background-color: rgb(40, 167, 69) !important;
+    font-weight: bold;
+    height: 100% !important;
+    color: white !important;
+}
 /*
 .btn-primary{
     color: #fff !important;
     background-color: var(--primary-color) !important;
     font-weight: bold;
 }*/
-.btn-default {
-    color: #4215e3 !important;
-}
+
 
 /* CSS */
 .btn-primary  {
