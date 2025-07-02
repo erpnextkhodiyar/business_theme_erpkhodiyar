@@ -150,8 +150,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #5e5d90 !important;
 }
 .navbar-home img {
-    max-height: 50px !important;
-    width: 100% !important;
+    max-height: 48px !important;
+    width: 86px !important;
 }
 .btn-primary:active,
 .btn-secondary:focus,
