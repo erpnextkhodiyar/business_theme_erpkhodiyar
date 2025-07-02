@@ -147,7 +147,7 @@ input:focus{
     --navbar-height: 50px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: #9c2828 !important;
+    color: #5e5d90 !important;
 }
 .navbar-home img {
     max-height: 50px !important;
@@ -165,7 +165,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: var(--primary-color) !important;
     font-weight: bold;
 }*/
-
+.btn-default {
+    color: #4215e3 !important;
+}
 
 /* CSS */
 .btn-primary  {
