@@ -163,10 +163,44 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #4215e3 !important;
 }
 .call-button {
-    background-color: rgb(40, 167, 69) !important;
-    font-weight: bold;
-    height: 100% !important;
-    color: white !important;
+    background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold !important;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #59ae5c; -webkit-box-shadow: 0 0 3px #59ae5c; }
+  50% { background-color: #59ae5c; -webkit-box-shadow: 0 0 40px #59ae5c; }
+  100% { background-color: #59ae5c; -webkit-box-shadow: 0 0 3px #59ae5c; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #59ae5c; -moz-box-shadow: 0 0 3px #59ae5c; }
+  50% { background-color: #5e9c3a; -moz-box-shadow: 0 0 40px #5e9c3a; }
+  100% { background-color: #59ae5c; -moz-box-shadow: 0 0 3px #59ae5c; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #59ae5c; box-shadow: 0 0 3px #59ae5c; }
+  50% { background-color: #5e9c3a; box-shadow: 0 0 40px #5e9c3a; }
+  100% { background-color: #59ae5c; box-shadow: 0 0 3px #59ae5c; }
+}
+
+@keyframes glowing {
+  0% { background-color: #59ae5c; box-shadow: 0 0 3px #59ae5c; }
+  50% { background-color: #5e9c3a; box-shadow: 0 0 40px #5e9c3a; }
+  100% { background-color: #59ae5c; box-shadow: 0 0 3px #59ae5c; }
 }
 /*
 .btn-primary{
